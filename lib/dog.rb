@@ -13,6 +13,8 @@ class Dog
   
   def self.print_all
     @@all.each do |name|
-      puts ""
+      puts "#{name} has a name"
+    end
+  end
   
 end

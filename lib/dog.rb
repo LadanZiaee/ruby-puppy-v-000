@@ -4,12 +4,12 @@ class Dog
   
   def initialize(name)
     @name = name
-    @@all << self 
+    @@all << name 
   end
   
   def self.all
     @@all.each do |dog|
-      puts "#{dog.name}"
+      puts "#{dog}"
     end
   end
   
